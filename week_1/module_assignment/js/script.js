@@ -56,7 +56,7 @@ function showMeSomeCats(catArray) {
     if (catArray[i].age) {
       catAge += `<p>${catArray[i].age}</p>`;
     } else {
-      catAge = "Age Uknown";
+      catAge = "Age Unknown";
     }
 
     newHTML += `<div>
