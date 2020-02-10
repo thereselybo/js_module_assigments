@@ -1,2 +1,2 @@
 # pf_module_assigments
-repo for my weekly module assignments. 
+repo for daily exercise and weekly module assignment answers. 
