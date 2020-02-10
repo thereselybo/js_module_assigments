@@ -42,9 +42,14 @@ button4.addEventListener("mouseout", handleMouseOut);
 // Question 6
 const listItems = document.querySelectorAll("li");
 
-listItems.forEach(function(item) {
-  console.dir(item.dataset.animal);
-});
+for (let i = 0; i < listItems.length; i++) {
+  listItems[i].addEventListener("mouseover", hoverListItem);
+
+}
+function hoverListItem(event) {
+  console.log(event.target.dataset.animal)
+};
+
 
 // Question 7
 const animal = "bird";
